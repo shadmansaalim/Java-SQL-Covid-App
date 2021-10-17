@@ -38,6 +38,7 @@ public class App {
         // All webpages are listed here as GET pages
         app.get(Index.URL, new Index());
         app.get(KeyInfo.URL, new KeyInfo());
+        app.get(CountryDataCases.URL, new CountryDataCases());
         app.get(Page2.URL, new Page2());
         app.get(Page3.URL, new Page3());
         app.get(Page4.URL, new Page4());
